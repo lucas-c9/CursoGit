@@ -25,6 +25,7 @@
 ## Git status <a name = "status"></a>
 
 ## Git show <a name = "show"></a>
+El comando show se utiliza para mostrar informacion sobre cualquier objeto git 
 
 ## Git log <a name = "log"></a>
 
