@@ -28,7 +28,7 @@
 El comando show se utiliza para mostrar informacion sobre cualquier objeto git 
 
 ## Git log <a name = "log"></a>
-El comando git log se utiliza para exporar el historial del repositorio
+El comando git log se utiliza para exporar el historial del repositorio.
 
 ## Git blame <a name = "blame"></a>
 
