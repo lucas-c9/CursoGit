@@ -49,3 +49,6 @@ El comando commit sirve para que una vez agregado los archivos que hemos modific
 ## Git push <a name = "push"></a>
 
 ## Git help <a name = "help"></a>
+El commando help sirve para acceder de manera mas detallada a los parametros que utiliza un comando en especifico o sobre git. Esto nos ayudara a entender que otras funcionalidades puede tener el mismo.
+`git help` este comando muestra todas las funciones que podemos realizar con una breve descripcion de las mismas.
+`git [comando] --help` este comando nos mostrara especificamente que funcionalidades extra o parametros a utilizar son acerca de ese comando.
