@@ -37,7 +37,9 @@
 ## Git merge <a name = "merge"></a>
 
 ## Git add <a name = "add"></a>
-
+El comando add sirve para agregar los archivos que hemos modificados para luego estos agregarlos a un commit.
+`git add archivo.txt` este comando agregara unicamente archivo.txt. Es decir sirve para agregar archivo por archivo que ha sido modificado
+`git add .` este comando agregara todo los archivos que han sido modificados automaticamente.
 ## Git commit <a name = "commit"></a>
 
 ## Git pull <a name = "pull"></a>
