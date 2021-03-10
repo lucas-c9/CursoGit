@@ -41,7 +41,9 @@ El comando add sirve para agregar los archivos que hemos modificados para luego 
 `git add archivo.txt` este comando agregara unicamente archivo.txt. Es decir sirve para agregar archivo por archivo que ha sido modificado
 `git add .` este comando agregara todo los archivos que han sido modificados automaticamente.
 ## Git commit <a name = "commit"></a>
-
+El comando commit sirve para que una vez agregado los archivos que hemos modificados estos sean agrupados en un commit, ademas el mismo puede tener un mensaje detallando que cambios hemos realizados o caracteristicas que hemos agregado.
+`git commit` este comando agrupara los archivos que hemos modificados en un commit. Una vez ejecutado este comando se nos abrira un editor de texto para agregar un mensaje acerca del commit realizado.
+`git commit -m "Mensaje"` este comando es similar a los anterior, solo que podemos agregar entre las comillas el mensaje de manera mas rapida.
 ## Git pull <a name = "pull"></a>
 
 ## Git push <a name = "push"></a>
