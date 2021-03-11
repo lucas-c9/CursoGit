@@ -25,10 +25,13 @@
 ## Git status <a name = "status"></a>
 
 ## Git show <a name = "show"></a>
+El comando show se utiliza para mostrar informacion sobre cualquier objeto git 
 
 ## Git log <a name = "log"></a>
+El comando git log se utiliza para exporar el historial del repositorio.
 
 ## Git blame <a name = "blame"></a>
+El comando git blame se usa para examenit contenido de un archivo y ver cuando se modifico y quien lo modifico
 
 ## Git branch <a name = "branch"></a>
 
@@ -56,6 +59,16 @@ La sintaxis basica del comando es:
 
 ## Git merge <a name = "merge"></a>
 
+El comando `git merge <rama>` sirve basicamente para "fusionar" ramas de trabajo.
+
+Para hacer un merge nos situamos en una rama, en este caso la "master", y decimos con qué otra rama se debe fusionar el código.
+
+El siguiente comando, lanzado desde la rama "master", permite fusionarla con la rama "experimental".
+
+	`git merge experimental`
+
+Cuando varias personas trabajan en un desarrollo y cada una lleva adelante el manteniemiento, desarrollo y/o actualización de una parte del código, cada una de ellas debería abrir una rama para trabajar y luego de terminado el desarrollo o actualización "fusionar" su trabajo a la rama general de código.
+Esto es lo que hace Merge.
 
 
 ## Git add <a name = "add"></a>
