@@ -31,6 +31,7 @@ El comando show se utiliza para mostrar informacion sobre cualquier objeto git
 El comando git log se utiliza para exporar el historial del repositorio.
 
 ## Git blame <a name = "blame"></a>
+El comando git blame se usa para examenit contenido de un archivo y ver cuando se modifico y quien lo modifico
 
 ## Git branch <a name = "branch"></a>
 
