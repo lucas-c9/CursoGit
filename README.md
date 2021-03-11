@@ -50,6 +50,17 @@ La sintaxis basica del comando es:
 
 ## Git merge <a name = "merge"></a>
 
+El comando `git merge <rama>` sirve basicamente para "fusionar" ramas de trabajo.
+
+Para hacer un merge nos situamos en una rama, en este caso la "master", y decimos con qué otra rama se debe fusionar el código.
+
+El siguiente comando, lanzado desde la rama "master", permite fusionarla con la rama "experimental".
+
+	`git merge experimental`
+
+Cuando varias personas trabajan en un desarrollo y cada una lleva adelante el manteniemiento, desarrollo y/o actualización de una parte del código, cada una de ellas debería abrir una rama para trabajar y luego de terminado el desarrollo o actualización "fusionar" su trabajo a la rama general de código.
+Esto es lo que hace Merge.
+
 ## Git add <a name = "add"></a>
 El comando add sirve para agregar los archivos que hemos modificados para luego estos agregarlos a un commit.
 `git add archivo.txt` este comando agregara unicamente archivo.txt. Es decir sirve para agregar archivo por archivo que ha sido modificado
