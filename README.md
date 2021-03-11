@@ -34,6 +34,17 @@
 
 ## Git checkout <a name = "checkout"></a>
 
+El comando `git checkout` te permite navegar entre las ramas creadas por `git branch`. Verificar una rama actualiza los archivos en el directorio de trabajo para que coincidan con la versión almacenada en esa rama, y ​​le dice a Git que registre todas las nuevas confirmaciones en esa rama.
+
+La sintaxis basica del comando es:
+
+     `git checkout [-q] [-f] [-m] [<branch>]`
+
+
+   Uno de los parametros mas usados y recomendados es -b que sirve para crear una nueba rama y cambiar automaticamente a ella.
+
+     `git checkout -b <new_branch>`
+
 ## Git merge <a name = "merge"></a>
 
 ## Git add <a name = "add"></a>
