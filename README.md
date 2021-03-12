@@ -35,6 +35,15 @@ El comando git blame se usa para examenit contenido de un archivo y ver cuando s
 
 ## Git branch <a name = "branch"></a>
 
+Con el comando `git branch` podemos "ver" las ramas que fueron creadas en nuestro repositorio, saber cual es la rama actual y tambien crear nuevas ramas.
+
+su sintaxis es:
+
+`git branch`   ---> para conocer le listado de todas las ramas, se muestra con "asterisco"<nombre> y destacada en color la rama actual
+
+`git branch <nuevarama>` permite crear una rama nueva de nombre <nuevarama>
+
+
 ## Git checkout <a name = "checkout"></a>
 
 El comando `git checkout` te permite navegar entre las ramas creadas por `git branch`. Verificar una rama actualiza los archivos en el directorio de trabajo para que coincidan con la versión almacenada en esa rama, y ​​le dice a Git que registre todas las nuevas confirmaciones en esa rama.
@@ -60,6 +69,7 @@ El siguiente comando, lanzado desde la rama "master", permite fusionarla con la 
 
 Cuando varias personas trabajan en un desarrollo y cada una lleva adelante el manteniemiento, desarrollo y/o actualización de una parte del código, cada una de ellas debería abrir una rama para trabajar y luego de terminado el desarrollo o actualización "fusionar" su trabajo a la rama general de código.
 Esto es lo que hace Merge.
+
 
 ## Git add <a name = "add"></a>
 El comando add sirve para agregar los archivos que hemos modificados para luego estos agregarlos a un commit.
