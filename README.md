@@ -24,6 +24,29 @@
 
 ## Git status <a name = "status"></a>
 
+Este comando muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.
+Si ejecutamos este comando inmediatamente después de clonar un repositorio, devolvería algo así:
+
+				`$ git status
+				On branch master
+				nothing to commit, working directory clean`
+				
+Esto significa que tenemos un directorio de trabajo limpio - en otras palabras, que no hay archivos rastreados y modificados. Además, Git no encuentra archivos sin rastrear, de lo contrario aparecerían listados aquí. Finalmente, el comando nos indica en cuál rama estamos y nos informa que no ha variado con respecto a la misma rama en el servidor.
+
+Supongamos que añadimos un nuevo archivo a tu proyecto, un simple README. Si el archivo no existía antes y ejecutamos `git status`, veremos el archivo sin rastrear de la siguiente manera:
+
+				`$ echo 'My Project' > README
+				$ git status
+				On branch master
+				Untracked files:
+				  (use "git add <file>..." to include in what will be committed)
+
+				    README
+
+				nothing added to commit but untracked files present (use "git add" to track)`
+				
+Podemos ver que el archivo README está sin rastrear porque aparece debajo del encabezado “Untracked files” (“Archivos no rastreados” en inglés) en la salida. Sin rastrear significa que Git ve archivos que no teníamos en el commit anterior. Git no los incluirá en nuestro próximo commit a menos que se lo indiquemos luego explícitamente con `git add`. Se comporta así para evitar incluir accidentalmente archivos binarios o cualquier otro archivo que no querramos incluir.
+
 ## Git show <a name = "show"></a>
 El comando show se utiliza para mostrar informacion sobre cualquier objeto git 
 
