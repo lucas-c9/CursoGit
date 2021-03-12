@@ -20,6 +20,10 @@
 
 ## Git init<a name = "init"></a>
 
+El comando `git init` crea un nuevo repositorio local en el directorio donde ejecutemos el comando.
+Esto crea un subdirectorio nuevo llamado .git, el cual contiene todos los archivos necesarios del repositorio (un esqueleto de un repositorio de Git). 
+Todavía no hay nada en tu proyecto que esté bajo seguimiento hasta no agregar archivos con el comando `git add`.
+
 ## Git clone<a name = "clone"></a>
 
 ## Git status <a name = "status"></a>
