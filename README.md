@@ -22,6 +22,23 @@
 
 ## Git clone<a name = "clone"></a>
 
+Git clone se utiliza para obtener una copia de algun repositorio, puede ser uno propio o algún proyecto en el que querramos colaborar.
+Su sintáxis es simple:
+
+     `git clone [url]`
+
+Por ejemplo, para clonar este repositorio:
+
+     `git clone https://github.com/lucas-c9/CursoGit`
+
+Esto crea un directorio llamado CursoGit, inicializa un directorio .git en su interior, descarga toda la información de ese repositorio y saca una copia de trabajo de la última versión. Si nos metemos en el directorio CursoGit, veremos que están los archivos del proyecto listos para ser utilizados. Si quieres clonar el repositorio a un directorio con otro nombre que no sea CursoGit, se agrega la siguiente opción de línea de comandos:
+
+     `git clone https://github.com/lucas-c9/CursoGit MiNuevoRepositorio`
+     
+Ese comando hace lo mismo que el anterior, pero el directorio de destino se llamará MiNuevoRepositorio.
+
+Git permite usar distintos protocolos de transferencia. En el ejemplo anterior usa el protocolo https://, pero también puedes utilizar git:// o usuario@servidor:ruta/del/repositorio.git que utiliza el protocolo de transferencia SSH.
+
 ## Git status <a name = "status"></a>
 
 Este comando muestra la lista de los archivos que se han cambiado junto con los archivos que están por ser preparados o confirmados.
@@ -69,7 +86,7 @@ su sintaxis es:
 
 ## Git checkout <a name = "checkout"></a>
 
-El comando `git checkout` te permite navegar entre las ramas creadas por `git branch`. Verificar una rama actualiza los archivos en el directorio de trabajo para que coincidan con la versión almacenada en esa rama, y ​​le dice a Git que registre todas las nuevas confirmaciones en esa rama.
+El comando `git checkout` te permite navegar entre las ramas creadas por `git branch`. Verificar una rama actualiza los archivos en el directorio de trabajo para que coincidan con la versión almacenada en esa rama, y le dice a Git que registre todas las nuevas confirmaciones en esa rama.
 
 La sintaxis basica del comando es:
 
